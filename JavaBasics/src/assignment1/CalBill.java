@@ -9,7 +9,7 @@ public class CalBill {
 		 String typeOfConnection ;
 		
 		 
-		   Scanner myObj = new Scanner(System.in);
+		   Scanner myObj = new Scanner(System.in);  //reading the data from keyboard
 		   
 		    System.out.println("Enter previous month's reading:");
 		    previousReading = myObj.nextInt();
